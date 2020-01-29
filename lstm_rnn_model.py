@@ -13,7 +13,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 
 # Reading the source file using pandas 
-df = pd.read_excel("tide_file.xlsx")
+df = pd.read_excel("dummy_file.xlsx")
 df
 
 # Creating a 'MATCH_FLAG' based on matching values of feature_transaction_id and matched_transaction_id for all receipts
